@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: active deploy-201612
+  host: active-deploy-201612
+  disk_quota: 1024M
